@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html style = "font-family: Courier New;">
+    <head>
+        <title>Spotifys and Favorite Songs</title>
+        <link rel = "stylesheet" href = "artists_style.css">
+    </head>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+
+    <body style = "background-color: darkgrey;">
+        <ul>
+            <li><a class = "active">Honorable Mentions</a></li>
+            <li><a href = "Spotify.html">Spotifys and Favorite Songs</a></li>
+            <li><a href = "Artists.html">Artists</a></li>
+        </ul>
+
+        <h1 style = "color: rgb(42, 130, 165);">Honorable Mentions</h1>
+            <div style = "text-align: center; border: solid 2px #217425;">
+                <p><a href = "https://www.youtube.com/watch?v=DkKl1ainYqY&pp=ygUaYmVhdXRpZnVsIHNjYXIgbGVlIGV1bnNhbmc%3D" target = "_blank">
+                    Beautiful Scar (feat. PARK WOO JIN) by Lee Eun Sang</a></p>
+                        <p><a href = "https://www.youtube.com/watch?v=eWazsCKdlhg&pp=ygUhd2hhdCdzIHlvdXIgcGxlYXN1cmUgamVzc2llIHdhcmUg" target = "_blank">
+                            What's Your Pleasure by Jessie Ware</a></p>
+                                <p><a href = "https://www.youtube.com/watch?v=C2ybLIsT21c&pp=ygUOYWNjaWRlbnQgd29vZHo%3D" target = "_blank">
+                                    Accident by WOODZ</a></p>
+                                        <p><a href = "https://www.youtube.com/watch?v=3FXbUE4A_ts&pp=ygUObW8gbGlxdW9yIGthcmk%3D" target = "_blank">
+                                            Mo' Liquor by Kari Faux</a></p>
+                                                <p><a href = "https://www.youtube.com/watch?v=Kpl9ZqVDb3Q&pp=ygUHZG8gMiBtZQ%3D%3D" target = "_blank">
+                                                    Do 2 Me by Grimm Lynn</a></p>
+                                            <p><a href = "https://www.youtube.com/watch?v=2I9ufTCxQ20&pp=ygUPcG9wIGFkYW5uYSBkdXJ1" target = "_blank">
+                                        POP! by Adanna Duru</a></p>
+                                    <p><a href = "https://www.youtube.com/watch?v=SNyLLcX9na0&pp=ygUOa2lzcyBkb2phZWp1bmc%3D" target = "_blank">
+                                Kiss by DOJAEJUNG</a>
+                            <p><a href = "https://www.youtube.com/watch?v=kPXgT8ZQLwo&pp=ygUUY2hlbWljYWwgbGF5emVlIGVsbGE%3D" target = "_blank">
+                        Chemical by Layzee Ella</a></p>
+                    <p><a href = "https://www.youtube.com/watch?v=q4GJVOMjCC4&pp=ygURc3VyZSB0aGluZyBtaWd1ZWw%3D" target = "_blank">
+                Sure Thing by Miguel</a></p>
+            </div>
+
+        <br><br>
+
+        <form action = mentions.php method = "post" style = "border: solid 2px #217425; padding: 12px;">
+            <label for = "favSong">What is Your Favorite Song?</label><br>
+            <input type = "text" name = "song" placeholder = "Enter Favorite Song..." name = "favSong">
+
+            <br><br>
+
+            <label for = "artist">Who is the Artist?</label><br>
+            <input type = "text" name = "artist" placeholder = "Enter Artist Name..." name = "artist">
+
+            <br><br>
+
+            <button type = "submit">Submit Response</button>
+        </form>
+    </body>
+</html>

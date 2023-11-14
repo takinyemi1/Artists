@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+div.listcenter {
+    text-align: center;
+}
+ol.myOL {
+    display: inline-block;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(43, 48, 46, 0.322);
+}
+
+li {
+    display: inline-block;
+}
+
+li {
+    float: right;
+}
+
+/*
+This is for any attributes that have the <a> tag*/
+li a {
+    display: block;
+    padding: 8px;
+    color: black;
+    background-color: rgba(43, 48, 46, 0.322);
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black;
+}
+/*
+This is for attributes that aren't active and need to be clicked on */
+li a:hover:not(.active) {
+    background-color: rgb(89, 134, 112);
+}
+
+/*
+Attributes that are already active will have a different color to signify that it's currently active*/
+.active {
+    background-color: rgb(155, 106, 42);
+}
+
+button {
+    width: 37.8%;
+    margin: 4px;
+    padding: 15px;
+    border: solid 3px black;
+    background-color: #64a055;
+    cursor: pointer;
+    color: white;
+    font-family: 'Courier';
+}
+
+button:hover {
+    background-color: #bbb4d4;
+    color: black;
+}
+
+input[type = text], input[type = submit] {
+    width: 35%;
+    margin: 4px;
+    padding: 15px;
+    border: solid 3px black;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-family: 'Courier';
+}
+
+input[type = text]:hover, input[type = submit]:hover {
+    background-color: #bbb4d4;
+    color: black;
+}
